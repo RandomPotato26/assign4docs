@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Mark Riise">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Procedural - Fact Checker</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Procedural";
+    var mkdocs_page_input_path = "procedualDocumentation.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Fact Checker</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Procedural</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#call-center-guide">Call Center Guide</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#problem-unable-unable-to-capture-video-andor-audio">Problem: Unable unable to capture video and/or audio</a></li>
+        
+            <li><a class="toctree-l3" href="#problem-received-an-error-code">Problem: Received an error code</a></li>
+        
+            <li><a class="toctree-l3" href="#problem-unable-to-capture-videoaudio">Problem: Unable to capture video/audio</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#api">API</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#getting-started">Getting Started</a></li>
+        
+            <li><a class="toctree-l3" href="#example-overview">Example Overview</a></li>
+        
+            <li><a class="toctree-l3" href="#methods">Methods</a></li>
+        
+            <li><a class="toctree-l3" href="#advanced">Advanced</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../techinicalDocumentation/">Techinical</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../copyright/">Copyright</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../privacy/">Privacy</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Fact Checker</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Procedural</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="call-center-guide">Call Center Guide</h1>
+<p>A guide for the lovely people at our totally not outsourced call center in India to help diagnose and solve problems that users face. </p>
+<h2 id="problem-unable-unable-to-capture-video-andor-audio">Problem: Unable unable to capture video and/or audio</h2>
+<p>user has app permissions improperly set up</p>
+<p>ask user to refer to the provided <a href="../techinicalDocumentation/">Technical Documentation</a> to set up the proper permissions</p>
+<h2 id="problem-received-an-error-code">Problem: Received an error code</h2>
+<p>User has told you they keep getting an error with a 3 digit code, use the following list for steps to take to try and solve their issue.</p>
+<ul>
+<li>
+<h3 id="400-bad-request-app-made-a-misformatted-or-corrupt-request"><code>400 Bad Request, app made a misformatted or corrupt request</code></h3>
+<p>Restart app and if problem persists, report to Dev team with an issue code and stacktrace and log of user events</p>
+</li>
+<li>
+<h3 id="401-unauthorized-app-made-an-unauthorized-request"><code>401 Unauthorized, app made an unauthorized request</code></h3>
+<p>User is not properly signed in or their 0Auth token has expired, tell user to reconnect their google/facebook/instagram account</p>
+</li>
+<li>
+<h3 id="403-forbidden-user-requested-acess-to-forbidden-content"><code>403 Forbidden, User requested acess to forbidden content</code></h3>
+<ul>
+<li>User requested fact checking on "Tiananmen Square", "Tank Man", and other variants, tell user to stop</li>
+<li>User requested existential content to fact checker, refer user to local religious institution or Psychologist</li>
+</ul>
+</li>
+<li>
+<h3 id="404-not-found"><code>404 Not Found</code></h3>
+<p>app or user requested method or content was not found on the server, if problem persists, report to Dev team with an issue code and stacktrace and log of user events</p>
+</li>
+<li>
+<h3 id="500-internal-server-error"><code>500 Internal Server Error</code></h3>
+<p>Send message to Dev team to yell at Jason, he probably spilt kombacha on the server again </p>
+</li>
+<li>
+<h3 id="503-service-unavailable"><code>503 Service Unavailable</code></h3>
+<p>Send message to Dev and Upkeep team to check the AWS bill, tell user their service will be back on soon, and any fact checking requests may be made to our actual call center at <strong>1-800-IM-TOO-LAZY-TO-TYPE</strong></p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If any of the above does not work and/or the user is not being helpful, send them over to directly to Jason's mobile phone number.</p>
+<p>if you don't already have his mobile number, email the automatic response server with your <strong>only</strong> employee ID at <code>dev-team-head@widgets.inc</code></p>
+</div>
+<hr />
+<h2 id="problem-unable-to-capture-videoaudio">Problem: Unable to capture video/audio</h2>
+<ul>
+<li>check internet connection, attempt to connect to google and verify internet connection</li>
+<li>verify user has given proper permissions to the file system and camera</li>
+<li>verify status of internet service providers</li>
+<li>verify no error codes are being displayed</li>
+</ul>
+<p>expected output</p>
+<hr />
+<h1 id="api">API</h1>
+<p>a guide to our provided JS library for the people out there who want to use our technology outside of our app</p>
+<h2 id="getting-started">Getting Started</h2>
+<hr />
+<h3 id="install-fact-checker">install Fact Checker</h3>
+<pre><code>npm install FactChecker
+</code></pre>
+<p>verify Fact Checker version</p>
+<pre><code class="JavaScript">    npm FactChecker -v
+</code></pre>
+
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>update FactChecker to the latest version before continuing</p>
+<p><strong>latest version is <code>2.4</code></strong> </p>
+</div>
+<p>import JavaScript library into your project and connect to the database</p>
+<pre><code>var facts = require(`FactChecker`);
+
+facts.connect('NA', JWT)
+</code></pre>
+<p>optional strings for server connections <code>.connect( server )</code> : : <code>EU</code>, <code>NA</code>, <code>CN</code></p>
+<p>provide a JWT (learn more at https://jwt.io/)</p>
+<hr />
+<h2 id="example-overview">Example Overview</h2>
+<p>using ES6 Promise and a proprietary photo capture library </p>
+<pre><code>var facts = require(`FactChecker`);
+var photo = require('JasonCam')
+facts.connect('NA', exampleJWT);
+
+var isFact = new Promise(function(){ 
+    return facts.checkPhoto(JasonCam.capturePhoneCamera(), {OCR_Model: JasonCam.JasonRecog})
+);
+
+isFact.resolve(console.log)
+//returns wether or not the person looking at the Jason's Phone is Jason
+</code></pre>
+<hr />
+<h2 id="methods">Methods</h2>
+<p>all methods return a true/false value or an error</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>our API supports offline and third-party OCRs the default OCR for all methods  <code>https://widgits.inc/PublicOCR.model</code></p>
+</div>
+<h3 id="audio-file">audio file</h3>
+<pre><code>facts.checkAudio(myAudioFile , OPTIONS);
+</code></pre>
+<hr />
+<h3 id="video-file">video file</h3>
+<p>acceptable video formats include <code>.mov</code>, <code>.mp4</code>, and <code>.webem</code></p>
+<pre><code>facts.checkVideo(myVidoFile , OPTIONS);
+</code></pre>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><code>OPTIONS</code> is read as a standard JS object, potential values are </p>
+<pre><code>OPTIONS{
+    OCR_Model: ./path/to/myOCRModel OR https://exampleOCR.com/myOCRmodel.model,
+    checkAudio: true/false, 
+    checkVisual: true/false, 
+}
+</code></pre>
+</div>
+<h3 id="photo-file">photo file</h3>
+<p>acceptable photo formats include <code>.png</code>, <code>.jpg</code>, and <code>.svg</code></p>
+<pre><code>facts.checkPhoto(myPhoto, OPTIONS)
+</code></pre>
+<h3 id="document-file">document file</h3>
+<p>acceptable document formats include <code>.pdf</code>, <code>.doc</code>, <code>.docx</code>, <code>.txt</code>, and <code>.rtf</code></p>
+<pre><code>facts.checkDocument(myDocument, OPTIONS)
+</code></pre>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>OCR for PDFs can be sketchy at times</p>
+</div>
+<hr />
+<h2 id="advanced">Advanced</h2>
+<h3 id="streams">Streams</h3>
+<p>Audio Stream</p>
+<pre><code class="JavaScript">var audioStream = new facts.audioStream(myAudioStream);
+facts.checkAudioStream(audioStream);
+</code></pre>
+
+<p>Video Stream</p>
+<pre><code class="JavaScript">var videoStream = new facts.videoStream(myVideoStream);
+facts.checkVidoStream(videoStream);
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../techinicalDocumentation/" class="btn btn-neutral float-right" title="Techinical">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Widgits Inc.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../techinicalDocumentation/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
