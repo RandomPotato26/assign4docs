@@ -1,0 +1,22 @@
+site_name: Fact Checker
+
+site_author: Mark Riise
+
+copyright: 'Widgits Inc.'
+
+nav:
+- Home: 'index.md'
+- Procedural: 'procedualDocumentation.md'
+- Techinical: 'techinicalDocumentation.md'
+- Copyright: 'copyright.md'
+- Privacy: 'privacy.md'
+
+plugins:
+    - search
+
+markdown_extensions:
+    - fenced_code
+    - admonition
+
+
+theme: readthedocs
