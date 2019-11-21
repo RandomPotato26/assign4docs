@@ -6,7 +6,7 @@ A guide for the lovely people at our totally not outsourced call center in India
 
 user has app permissions improperly set up
 
-ask user to refer to the provided [Technical Documentation](techinicalDocumentation.md) to set up the proper permissions
+ask user to refer to the provided [User Guide](userGuide.md) to set up the proper permissions
 
 ## Problem: Received an error code
 
