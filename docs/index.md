@@ -1,6 +1,6 @@
-## See the [User Guide](techinicalDocumentation.md) to get started using the app
+## See the [User Guide](userGuide.md) to get started using the app
 
-## We also provide [API docs](procedualDocumentation.md)
+## We also provide [API docs](api.md)
 ![](img/widgits.png)
 
 # About [Widgets Inc.](copyright.md)

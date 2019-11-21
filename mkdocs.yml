@@ -6,8 +6,12 @@ copyright: 'Widgits Inc.'
 
 nav:
 - Home: 'index.md'
-- Procedural: 'procedualDocumentation.md'
-- Techinical: 'techinicalDocumentation.md'
+- Procedural: 
+  - Call Center: 'callCenter.md'
+  - API: 'api.md'
+- Techinical: 
+  - User Guide: 'userGuide.md'
+  - FAW: 'faq.md'
 - Copyright: 'copyright.md'
 - Privacy: 'privacy.md'
 
